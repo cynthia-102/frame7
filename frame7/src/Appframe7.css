@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.left-column {
+  position: absolute;
+  left: 190px; /* Ajusta la posición izquierda según sea necesario */
+  top: 130px; /* Ajusta la posición superior según sea necesario */
+}
+
+.right-column {
+  position: absolute;
+  right: 190px; /* Ajusta la posición derecha según sea necesario */
+  top: 100px; /* Ajusta la posición superior según sea necesario */
+}
+
+.marco-container {
+  position: relative;
+  width: 120%; /* Ajusta el ancho del marco según sea necesario */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.marco-image {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 52%; /* Centra verticalmente el texto */
+  left: 50%; /* Centra horizontalmente el texto */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 25px;
+}
+
+.text-overlay p {
+  color: rgb(0, 0, 0); /* Cambia el color del texto según sea necesario */
+}
+
+.green-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  margin-left: -600px;
+
+}
+
+.inicio-button {
+  position: absolute;
+  top: 20px; /* Ajusta la posición superior según sea necesario */
+  left: 50px; /* Ajusta la posición izquierda según sea necesario */
+  background-color: rgb(121, 119, 121); /* Cambia el color del botón según sea necesario */
+  color: white;
+  padding: 15px 30px; /* Ajusta el tamaño del botón según sea necesario */
+  font-size: 18px; /* Ajusta el tamaño de la fuente según sea necesario */
+  border: none;
+  cursor: pointer;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: -30px; /* Ajusta la posición inferior según sea necesario */
+  right: -100px; /* Ajusta la posición derecha según sea necesario */
+}
+
+.bottom-right img {
+  max-width: 70%;
+  height: auto;
+}
